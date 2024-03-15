@@ -1,0 +1,36 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #000000 !important;
+}
+
+.jeux {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 20vw;
+    height: 50vh;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+

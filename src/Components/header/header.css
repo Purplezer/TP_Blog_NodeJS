@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0 1px 3px -2px black;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-menu li {
+    cursor: pointer;
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+    margin: 0 50px;
+    
+}
+
+.Linkpanier img {
+    text-decoration: none;
+    color: white;
+    margin: 0 200px;
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+.Link:hover {
+    color: rgb(136, 134, 134);
+}
+
+.nav-menu li:hover {
+    color: rgb(120, 118, 118);
+}
+
+
+

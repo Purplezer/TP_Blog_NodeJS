@@ -1,0 +1,29 @@
+.main{
+    background-color: var(--gris);
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main > h1{
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.main > p{
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.pokeapi{
+    color: var(--bleu);
+}
+
+.pokeapi:hover{
+    color: var(--rouge);
+}
